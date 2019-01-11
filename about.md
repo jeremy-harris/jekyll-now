@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I'm an entreprenuer who loves solving proglems. I own a successful IT company and I've sole a self-defense training company. I'm starting this blog to document my journey into the "new world" of Data Science as I try to figure all of this out and chart our on a new adventure of turning myself into a well respected data scientist. I hope you (and I) enjoy the journey!
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[jeremy@itmindshare.com](mailto:jeremy@domain.com)
