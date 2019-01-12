@@ -1,9 +1,9 @@
-y#
+#
 # This file contains configuration flags to customize your site
 #
 
 # Name of your site (displayed in the header)
-name: Jeremy Dives Into Data
+name: Jeremy's Data Experience
 
 # Short bio or description (displayed in the header)
 description: A business owner and technology professional dives into data science.
