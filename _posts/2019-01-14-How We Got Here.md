@@ -1,4 +1,6 @@
 ---
+layout: post
+title: How I Decided To Do This & Where It Is Today?
 published: true
 ---
 
