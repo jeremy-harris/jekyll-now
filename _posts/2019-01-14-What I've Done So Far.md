@@ -1,8 +1,6 @@
 ---
-published: false
+published: true
 ---
-## A New Post
-
 ## Testing
 
 Words go here. 
