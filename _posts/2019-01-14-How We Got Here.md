@@ -11,5 +11,4 @@ d I probably needed to do both.
 
 I decided to start a new company, Data Mindshare, where I will work with two Ph.D. professors that have extensive backgrounds in statistics and HR/Process Management. I'll bring the business experience and sales to the table and begin working on becoming a respected data scientist myself. We have now developed a strategy based on CRISP-DM and we've spoken to a few potential leads. We expect to begin working up our portfolio in the first quarter with simple and effective projects for our new clients. I've already started training in R and signed up for a college program (more to come on those later). So, we're off to the races and it's exciting to so quickly be involved in such a fascinating field!
 
-<img src="/images/CRISP-DM.png" width="48">
-#![CRISP-DM](/images/CRISP-DM.png){:class="img-responsive"}
+<img src="/images/CRISP-DM.png" width="250" align="center">
