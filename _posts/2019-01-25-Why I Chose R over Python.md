@@ -10,5 +10,5 @@ I actually think I like Python better. It seems to integrate more easily with th
 
 My strategy is pretty simple - I want to learn the language quickly, complete some exercises and a few projects of my own so that I am capable of understanding what is possible. I am certain that when I start using packages and math, I'll be searching for syntax - and that's ok. I just want to understand what to search for and be able to follow along looking at code. 
 
-# My Solution == DataCamp
+# My Starting Solution == DataCamp
 What a great find in <a href="https://www.datacamp.com/home" target="_blank">DataCamp</a>! I paid for the yearly membership and immediately enrolled in the 'Data Science in R' program. It's been perfect. I'm able to learn, practice and implement right away and at a steady pace. I highly recommend it. In addition, I highly recommend the DataCamp podcasts via <a href="https://www.datacamp.com/community/podcast" target="_blank">DataFramed</a>.
