@@ -12,7 +12,7 @@ You can see the code here: https://github.com/jeremy-harris/Clean_Customer_List/
 This is about my learning experience with uploading the code to GitHub. I've never done this before so this is literally starting at zero (other than I did sign up for a GitHub account previously). First, I went to Google and found this <a href="https://happygitwithr.com/rstudio-git-github.html" target="_blank">article</a> which let me know I'd also need Git. I already have the other prerequisites. I used the document to get to the Windows installer and downloaded and installed Git. I clicked through, didn't change any options. I tried to start a new Git Project (per the documentation) and found that where I installed Git, wasn't in the system path. The fix for this is to close RStudio after Git is installed, then reopen RStudio. 
 
 I was able to get through 12.3 in the document and clicked on my code (insted of the README.md file) in 12.4. I clicked on the Commit button and then did a push. However, the code didn't show up - just some sort of text file basically saying I did a commit. 
-!(https://github.com/jeremy-harris/Clean_Customer_List/blob/master/Git_Pic.JPG)
+![alt text](https://github.com/jeremy-harris/Clean_Customer_List/blob/master/Git_Pic.JPG)
 
 After 10-15 minutes of still not figuring out why my files don't show up in the repository, I just clicked the nice little "upload file" button on GitHub and did the ol' drag and drop. Done.
 
