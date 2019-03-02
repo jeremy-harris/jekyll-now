@@ -3,7 +3,7 @@ layout: post
 title: I Started the Data Analytics Certificate Program at Texas!
 published: true
 ---
-I've had to take a break from Data Camp for a while, although I still listen to the podcasts almost every day. I started the Data Analytics Certificate Program offered by the University of Texas this week....and I love it! <a href="https://professionaled.utexas.edu/data-analytics-certificate-program" target="_blank">Link to Program.</a> The very first class jumps right in to working with a sample dataset of sales data. We are asked to analyze the data in RapidMiner and determine various details about the data. We even started working on decision trees and applying machine learning tools to try and predict certain attributes based on the provided variables. It's been fun and a wild learning curve so far! 
+I've had to take a break from Data Camp for a while, although I still listen to the podcasts almost every day. I started the <a href="https://professionaled.utexas.edu/data-analytics-certificate-program" target="_blank">Data Analytics Certificate Program </a>offered by the University of Texas this week....and I love it! The very first class jumps right in to working with a sample dataset of sales data. We are asked to analyze the data in RapidMiner and determine various details about the data. We even started working on decision trees and applying machine learning tools to try and predict certain attributes based on the provided variables. It's been fun and a wild learning curve so far! 
 
 Here's one of my first decision trees to try and predict if a person would shop online or not based on where they live, their age, and the amount of the transaction. 
 ![Decision Tree](/images/UT-T1-Decision-Tree.JPG)
