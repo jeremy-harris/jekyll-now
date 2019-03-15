@@ -70,6 +70,6 @@ Here's my code to read in the spreadsheets, clean them up (so I can use them in 
 ### And The Moment We've All Been Waiting For....A Pretty Chart
 Okay, all of that to get us to this - the final output. Here you go sales team, release these products and go sell something. <a href="https://youtu.be/QMFwFgG9NE8" target="_blank">Coffee is for Closers</a>!
 
-![Top Products](/images/Top-Products.jpg)
+![Top Products](https://github.com/jeremy-harris/Prep-Clean-Store-C1T2/blob/master/clean_csv_files.R)
 
 Until next time...stay clean, data...stay clean.
