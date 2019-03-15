@@ -65,7 +65,7 @@ Now I need to calculate the 'Total Profit' per item by multiplying the 'Price' x
 ### Yay! I Get to Use R To Clean Data!
 I love working with R and any chance I get to read in spreadsheets and clean them up, I take it! I'm still new, so please don't yell at me <a href="https://twitter.com/hadleywickham" target="_blank">Hadley Wickham</a> for not having the correct file paths - I'll get there. 
 
-Here's my code to read in the spreadsheets, clean them up (so I can use them in RapidMiner) -- then take the model output, merge two files into one and calculate 'Total Profit' and then sort and write the file to disk. Here's [My R Code](https://github.com/jeremy-harris/Prep-Clean-Store-C1T2/blob/master/clean_csv_files.R). -- <b> If you know how to get this code inline on my blog instead of just a link, please let me know. For some reason, it's not clicking in my brain.</b>
+Here's my code to read in the spreadsheets, clean them up (so I can use them in RapidMiner) -- then take the model output, merge two files into one and calculate 'Total Profit' and then sort and write the file to disk. Here's <a href="https://github.com/jeremy-harris/Prep-Clean-Store-C1T2/blob/master/clean_csv_files.R" target="_blank">My R Code</a>. -- <b> If you know how to get this code inline on my blog instead of just a link, please let me know. For some reason, it's not clicking in my brain.</b>
 
 ### And The Moment We've All Been Waiting For....A Pretty Chart
 Okay, all of that to get us to this - the final output. Here you go sales team, release these products and go sell something. <a href="https://youtu.be/QMFwFgG9NE8" target="_blank">Coffee is for Closers</a>!
