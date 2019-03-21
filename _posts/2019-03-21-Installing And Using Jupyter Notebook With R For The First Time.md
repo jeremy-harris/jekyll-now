@@ -31,9 +31,14 @@ He is using Python, not R - but the execution is the same.
 
 #### Step Four: Publish and Share!
 Once you've created your notebook on your local machine, it's time to share it. Github to the rescue!
+- Install steps here
+- and here
+- and here
 
-
+#### My First Jupyter Notebook
 I created a really basic Jupyter Notebook with R to show a live view of the code in my last blogpost <a href="https://jeremy-harris.github.io/A-Newbie-Tries-Machine-Learning-and-Regression/" target="_blank">Newbie Tries ML & Regression</a>. Now, instead of just a link to code - I can provide a Jupyter Notebook the the live code that can be executed, edited and explained all on the web browser. Pretty cool. 
+
+- link to the notebook after created
 
 #### Spoiler: It's a Turtle
 
