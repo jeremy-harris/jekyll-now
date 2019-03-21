@@ -17,4 +17,5 @@ I am working in R for now and will pick up Python later. By default, the kernal 
 
 #### Step Three: Open up Jupyter Notebook with R kernal
 Launch the Jupyter notebook by executing the Jupyter Notebook application that you previously installed. You'll want to select 'New' and then R to launch an R Notebook. 
+
 ![Launch R Notebook](/images/Jupyter-R.JPG)
