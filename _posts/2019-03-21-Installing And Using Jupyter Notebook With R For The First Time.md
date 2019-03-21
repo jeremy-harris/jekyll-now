@@ -16,5 +16,5 @@ I am working in R for now and will pick up Python later. By default, the kernal 
 <b> Important Note:</b> <u>You need to use the Anaconda Prompt</u> (found by searching Windows/Start to run the code in the video. If you use the standard Windows prompt, the needed path is not added by default and the command 'conda' will not be found. 
 
 #### Step Three: Open up Jupyter Notebook with R kernal
-Launch the Jupyter notebook by executing the Jupyter Notebook application that you previously installed. 
-
+Launch the Jupyter notebook by executing the Jupyter Notebook application that you previously installed. You'll want to select 'New' and then R to launch an R Notebook. 
+![Launch R Notebook](/images/Jupyter-R.JPG)
