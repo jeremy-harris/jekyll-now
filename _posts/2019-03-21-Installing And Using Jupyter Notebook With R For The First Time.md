@@ -31,18 +31,15 @@ From here, you can start creating your own code right in the web browser! I foun
 He is using Python, not R - but the execution is the same.
 
 ### My First Jupyter Notebook
-I created a really basic Jupyter Notebook with R to show a live view of the code in my last blogpost <a href="https://jeremy-harris.github.io/A-Newbie-Tries-Machine-Learning-and-Regression/" target="_blank">Newbie Tries ML & Regression</a>. Now, instead of just a link to code - I can provide a Jupyter Notebook the the live code that can be executed, edited and explained all on the web browser. Pretty cool. 
+I created a really basic Jupyter Notebook with R to show a live view of the code in my last blogpost [Newbie Tries ML & Regression](https://jeremy-harris.github.io/A-Newbie-Tries-Machine-Learning-and-Regression/). Now, instead of just a link to code - I can provide a Jupyter Notebook the the live code that can be executed, edited and explained all on the web browser. Pretty cool. 
 
 #### Setting Up Jupyter
-I launched Jupyter and created a new folder for my first notebook. I called mine C1T2 for 'Course 1, Task 2' of the class I'm taking. Inside of the folder, I uploaded the necessary csv and xlsx files that I need to perform actions on. There's a pretty simple video <a href = "https://www.youtube.com/watch?v=dJO3Zv9Va2E" target = "_blank">here</a> that walks you through it.
+I launched Jupyter and created a new folder for my first notebook. I called mine C1T2 for 'Course 1, Task 2' of the class I'm taking. Inside of the folder, I uploaded the necessary csv and xlsx files that I need to perform actions on. There's a pretty simple video [here](https://www.youtube.com/watch?v=dJO3Zv9Va2E) that walks you through it.
 
 I inserted my R code that I previously created and changed the paths to the file names to match the new location in the C1T2 folder I created for Jupyter. I removed the final write portion of the code and instead changed it to a graph that I was able to put inline. Next, we share this with the world - I'm sure the world is waiting!
 
 ## Step Four: Publish and Share!
-Once you've created your notebook on your local machine, it's time to share it. Github to the rescue!
-- Install steps here
-- and here
-- and here
+Once you've created your notebook on your local machine, it's time to share it. Github to the rescue! This is honestly pretty simple. Go to your Github repository of choice and upload the notebook - it will have an extension of .ipynb. If you need help, [this website breaks it down.](https://reproducible-science-curriculum.github.io/sharing-RR-Jupyter/01-sharing-github/)
 
 ## Spoiler: It's a Turtle
 
