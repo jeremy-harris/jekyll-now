@@ -35,9 +35,6 @@ I launched Jupyter and created a new folder for my first notebook. I called mine
 
 I created a really basic [Jupyter Notebook with R](https://github.com/jeremy-harris/Prep-Clean-Store-C1T2/blob/master/C1T2_Clean_csv_and_xlsx.ipynb) to show a live view of the code in my last blogpost [Newbie Tries ML & Regression](https://jeremy-harris.github.io/A-Newbie-Tries-Machine-Learning-and-Regression/). Now, instead of just a link to code - I can provide a Jupyter Notebook the the live code that can be executed, edited and explained all on the web browser. Pretty cool. 
 
-
-I inserted my R code that I previously created and changed the paths to the file names to match the new location in the C1T2 folder I created for Jupyter. I removed the final write portion of the code and instead changed it to a graph that I was able to put inline. Next, we share this with the world - I'm sure the world is waiting!
-
 ## Step Four: Publish and Share!
 Once you've created your notebook on your local machine, it's time to share it. Github to the rescue! This is honestly pretty simple. Go to your Github repository of choice and upload the notebook - it will have an extension of .ipynb. If you need help, [this website breaks it down.](https://reproducible-science-curriculum.github.io/sharing-RR-Jupyter/01-sharing-github/)
 
