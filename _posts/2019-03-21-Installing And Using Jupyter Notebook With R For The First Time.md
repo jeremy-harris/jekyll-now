@@ -31,10 +31,10 @@ From here, you can start creating your own code right in the web browser! I foun
 He is using Python, not R - but the execution is the same.
 
 ### My First Jupyter Notebook
-I created a really basic Jupyter Notebook with R to show a live view of the code in my last blogpost [Newbie Tries ML & Regression](https://jeremy-harris.github.io/A-Newbie-Tries-Machine-Learning-and-Regression/). Now, instead of just a link to code - I can provide a Jupyter Notebook the the live code that can be executed, edited and explained all on the web browser. Pretty cool. 
-
-#### Setting Up Jupyter
 I launched Jupyter and created a new folder for my first notebook. I called mine C1T2 for 'Course 1, Task 2' of the class I'm taking. Inside of the folder, I uploaded the necessary csv and xlsx files that I need to perform actions on. There's a pretty simple video [here](https://www.youtube.com/watch?v=dJO3Zv9Va2E) that walks you through it.
+
+I created a [really basic Jupyter Notebook with R](../Prep-Clean-Store-C1T2/C1T2 - Clean csv and xlsx.ipynb) to show a live view of the code in my last blogpost [Newbie Tries ML & Regression](https://jeremy-harris.github.io/A-Newbie-Tries-Machine-Learning-and-Regression/). Now, instead of just a link to code - I can provide a Jupyter Notebook the the live code that can be executed, edited and explained all on the web browser. Pretty cool. 
+
 
 I inserted my R code that I previously created and changed the paths to the file names to match the new location in the C1T2 folder I created for Jupyter. I removed the final write portion of the code and instead changed it to a graph that I was able to put inline. Next, we share this with the world - I'm sure the world is waiting!
 
