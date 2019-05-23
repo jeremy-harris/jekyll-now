@@ -36,7 +36,7 @@ Next, I inspected the results to see which rules were the most valuable. Things 
 •	How many times did an occurrence equate to the purchase of my most popular product? 
 In general, I just wanted to get a feel for what was selling, what wasn’t and make sure that there weren’t any anomalies. In this case, there were. My biggest question to the sales team is that there were several times that multiple computers were purchased and they were all different make/model and brands. That’s pretty rare – and needs a little further explanation. 
 
-![Sold](/images/C2T4 – Top 10 Sold.png)
+![Sold](/images/Top_10_Sold.png)
 
 ## Final Findings: 
 For this example, the final findings were that iMac and HP computers were top sellers and that if a client had either product in their cart, we need to show them both items because these two were purchased together so many times that it was more than a fluke. The advice was to market to anyone that had purchased a PC or Laptop recently 
