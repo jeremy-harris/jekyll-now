@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-I'm an entreprenuer who loves solving problems. I own a successful IT company and I've sold a self-defense training company. I'm starting this blog to document my journey into the "new world" of Data Science as I try to figure all of this out and chart out on a new adventure of turning myself into a well respected data scientist. I hope you (and I) enjoy the journey!
+I'm an entreprenuer who loves solving problems. I started and still own a successful technology & security firm and I've started and sold other smaller companies along the way. I'm taking my talents and passion to solve problems and explore opportunities with data analytics and data science. This is a blog of my journey, projects, findings, musings and ramblings. I hope you enjoy it!
 
 ### Contact me
 
-[jeremy@itmindshare.com](mailto:jeremy@domain.com)
+[jeremy@datamindshare.com](mailto:jeremy@domain.com)
