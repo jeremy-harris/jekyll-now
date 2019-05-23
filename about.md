@@ -8,4 +8,4 @@ I'm an entreprenuer who loves solving problems. I started and still own a succes
 
 ### Contact me
 
-[jeremy@datamindshare.com](mailto:jeremy@domain.com)
+[Contact Me](https://www.datamindshare.com/contact)
