@@ -16,19 +16,19 @@ A Market Basket Analysis or ‘MBA’ (no, not the MBA your brother-in-law brags
 2.	How often items appear in the data and also appear with another item (Confidence)
     a.	For example, for every time diapers and beer appear together in the dataset (Support), how many times does beer also appear in the same transaction? 50% of the time, 70% of the time? This is the confidence interval of the algorithm. 
 
-### But, don’t be fooled – this isn’t just for retail. 
+## But, don’t be fooled – this isn’t just for retail. 
 Here’s a few examples of an MBA being used for some pretty cool predictive stuff: 
-•	Voting Prediction of Politicians
-•	<a href=”https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html?pagewanted=all&_moc.semityn.www” target=”_blank”>Target Knows You’re Pregnant, and how far along!</a>
-•	What song you want to listen to next.
-•	What to offer clients that are about to leave you.
+* Voting Prediction of Politicians
+* [Target Knows You're Pregnant!](https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html?pagewanted=all&_moc.semityn.www)
+* What song you want to listen to next.
+* What to offer clients that are about to leave you.
 
 ## Okay, So What Did I Do? 
 
-### Take a Look at the Data: 
+### Took a Look at the Data: 
 I used the apriori algorithm and tweaked the support and confidence until I was able to generate a sufficient number of occurrences (support) that had a pretty high likelihood of resulting in another purchase (confidence). 
 
-### Inspect the Results Further
+### Inspected the Results Further
 Next, I inspected the results to see which rules were the most valuable. Things I was looking at were: 
 •	What products were purchased the most? 
 •	What products were purchased the least? 
