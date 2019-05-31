@@ -30,7 +30,7 @@ I used the apriori algorithm and tweaked the support and confidence until I was 
 
 *   I used a support of .005 (occurs .05% of the time) & confidence of 0.6 (60% or greater predicted result)
 *   This generated the following set of rules (or qualifiying instanses based on my support and confidence numbers):
-![Apriori-Results](images/aprioir-results1.jpg)
+![Apriori Results](/images/apriori-results1.JPG)
 
 ### Inspected the Results Further
 Next, I inspected the results to see which rules were the most valuable. Things I was looking at were: 
@@ -40,7 +40,7 @@ Next, I inspected the results to see which rules were the most valuable. Things 
 
 In general, I just wanted to get a feel for what was selling, what wasn’t and make sure that there weren’t any anomalies. In this case, there were. My biggest question to the sales team is that there were several times that multiple computers were purchased and they were all different make/model and brands. That’s pretty rare – and needs a little further explanation. 
 
-![Apriori-Rules](images/aprioir-rules1.jpg)
+![Apriori-Rules](/images/apriori-rules1.JPG)
 
 *   So looking at the above output, you can see that 0.00528% of the time, the items were purchased together. In this case, Acer Aspire, Dell Desktop and a ViewSonic Monitor.
 *   When that happens, it is 81.5% likely that the customer will also purchase an HP Laptop. 
