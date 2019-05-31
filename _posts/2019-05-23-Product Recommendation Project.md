@@ -29,11 +29,11 @@ Here’s a few examples of an MBA being used for some pretty cool predictive stu
 I used the apriori algorithm and tweaked the support and confidence until I was able to generate a sufficient number of occurrences (support) that had a pretty high likelihood of resulting in another purchase (confidence). 
 
 *   I used a support of .005 (occurs .05% of the time) & confidence of 0.6 (60% or greater predicted result)
-*   This generated the following set of rules (or qualifiying instanses based on my support and confidence numbers):
+*   This generated a set of 28 rules (or qualifiying instanses based on my support and confidence numbers):
 ![Apriori Results](/images/apriori-results1.JPG)
 
 ### Inspected the Results Further
-Next, I inspected the results to see which rules were the most valuable. Things I was looking at were: 
+Next, I inspected the results to see which rules were the most valuable. I was looking at: 
 *   What products were purchased the most? 
 *   What products were purchased the least? 
 *   How many times did an occurrence equate to the purchase of my most popular product? 
@@ -42,9 +42,9 @@ In general, I just wanted to get a feel for what was selling, what wasn’t and 
 
 ![Apriori-Rules](/images/apriori-rules1.JPG)
 
-*   So looking at the above output, you can see that 0.00528% of the time, the items were purchased together. In this case, Acer Aspire, Dell Desktop and a ViewSonic Monitor.
-*   When that happens, it is 81.5% likely that the customer will also purchase an HP Laptop. 
-*   And you can see that this actually happened 52 times
+*   So looking at the above output, you can see that <span style="color:red">0.00528% of the time</span>, the items were purchased together. In this case, Acer Aspire, Dell Desktop and a ViewSonic Monitor.
+*   When that happens, it is <span style="color:blue">81.5% likely </span>that the customer will also purchase an HP Laptop. 
+*   And you can see that this actually happened <span style="color:green">52 times</span>.
 
 ## Final Findings: 
 For this example, the final findings were that iMac and HP computers were top sellers and that if a client had either product in their cart, we need to show them both items because these two were purchased together so many times that it was more than a fluke. The advice was to market to anyone that had purchased a PC or Laptop recently 
