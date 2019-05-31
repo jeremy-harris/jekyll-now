@@ -42,17 +42,18 @@ In general, I just wanted to get a feel for what was selling, what wasn’t and 
 
 ![Apriori-Rules](/images/apriori-rules1.JPG)
 
-*   So looking at the above output, you can see that <span style="color:red">0.00528% of the time</span>, the items were purchased together. In this case, Acer Aspire, Dell Desktop and a ViewSonic Monitor.
-*   When that happens, it is <span style="color:blue">81.5% likely </span>that the customer will also purchase an HP Laptop. 
-*   And you can see that this actually happened <span style="color:green">52 times</span>.
-
-## Final Findings: 
-For this example, the final findings were that iMac and HP computers were top sellers and that if a client had either product in their cart, we need to show them both items because these two were purchased together so many times that it was more than a fluke. The advice was to market to anyone that had purchased a PC or Laptop recently 
+*   So looking at the above output, you can see that 0.00528% of the time, the items were purchased together. In this case, Acer Aspire, Dell Desktop and a ViewSonic Monitor.
+*   When that happens, it is 81.5% likely that the customer will also purchase an HP Laptop. 
+*   And you can see that this actually happened 52 times.
 
 ## Summary
-A Market Basket Analysis is a great way to be more efficient with your marketing by focusing on cases that you know are more likely to happen. This is true if you’re a retail store selling products, a bank marketing various services and loans to clients, online retailers, looking to reduce client churn or employee churn….and the list goes on. 
+A Market Basket Analysis is a great way to be more efficient with your marketing by focusing on cases that you know are more likely to happen. This is true if you’re a retail store selling products, a bank marketing various services and loans to clients, online retailers, looking to reduce client churn or employee churn....and the list goes on.
 
 ## More Nerdy Details
 We take the data and set our threshold for how often we want the condition to exist and how high we want the percentage that a subsequent result will occur. Obviously, we typically want to see something appear very often and also have a very high percentage of confidence that a subsequent result will occur. 
 
 An example would be trying to predict a future product for a client. However, if items ‘a’ and ‘b’ were only purchased together 5 times that year out of say, 100,000 transactions, it may not be worth researching the confidence interval because it is such a rare occurrence. Unless, however, the confidence interval is very high and it is a high ticket/high profit item. Want more information on the details, you nerd? <a href=”https://towardsdatascience.com/association-rules-2-aa9a77241654” target = “_blank”>This article</a> should satisfy your knowledge desires. 
+
+This is the code I used to generate the rules. At first, I went after a higher frequency and higher confidence, but there were not any rules generated. So, I had to start backing off of the frequency and confidence. I found a sweet spot which is the code below that generated 28 rules. Out of roughly 10,000 transactions, these purchases only happened 50-60 times which isn't terribly high; however, our confidence (likelihood of a result hapenning) is 74% or greater which means we should be able to predict the product they will buy next with > 74% accuracy. 
+
+![Apriori Code](/images/apriori-code1.JPG)
