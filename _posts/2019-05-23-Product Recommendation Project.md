@@ -54,6 +54,7 @@ We take the data and set our threshold for how often we want the condition to ex
 
 An example would be trying to predict a future product for a client. However, if items ‘a’ and ‘b’ were only purchased together 5 times that year out of say, 100,000 transactions, it may not be worth researching the confidence interval because it is such a rare occurrence. Unless, however, the confidence interval is very high and it is a high ticket/high profit item. Want more information on the details, you nerd? <a href=”https://towardsdatascience.com/association-rules-2-aa9a77241654” target = “_blank”>This article</a> should satisfy your knowledge desires. 
 
+### Apriori Code Description
 This is the code I used to generate the rules. At first, I went after a higher frequency and higher confidence, but there were not any rules generated. So, I had to start backing off of the frequency and confidence. I found a sweet spot which is the code below that generated 28 rules. Out of roughly 10,000 transactions, these purchases only happened 50-60 times which isn't terribly high; however, our confidence (likelihood of a result hapenning) is 74% or greater which means we should be able to predict the product they will buy next with > 74% accuracy. 
 
 ![Apriori Code](/images/apriori-code1.JPG)
