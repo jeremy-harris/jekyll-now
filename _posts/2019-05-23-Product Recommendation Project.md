@@ -12,7 +12,7 @@ A company has data showing customer information and what products the customers 
 ## Solution: Market Basket Analysis
 A Market Basket Analysis or ‘MBA’ (no, not the MBA your brother-in-law brags about getting at every family gathering) is used to identify ‘interesting’ relationships or associations between products. At a high level, the MBA method will take a list of transactions (once cleaned up, of course) and uses the apriori algorithm to inspect the dataset and find all instances (called rules in this case) that match two main criteria: 
 1.	How often items appear in the data (Support)
-    a.	For example, how many times does a product (or set of products) occur in the data
+    a.	For example, how many times does a product (or set of products) occur in the data.
 2.	How often items appear in the data and also appear with another item (Confidence)
     a.	For example, for every time diapers and beer appear together in the dataset (Support), how many times does beer also appear in the same transaction? 50% of the time, 70% of the time? This is the confidence interval of the algorithm. 
 
@@ -28,14 +28,23 @@ Here’s a few examples of an MBA being used for some pretty cool predictive stu
 ### Took a Look at the Data: 
 I used the apriori algorithm and tweaked the support and confidence until I was able to generate a sufficient number of occurrences (support) that had a pretty high likelihood of resulting in another purchase (confidence). 
 
+*   I used a support of .005 (occurs .05% of the time) & confidence of 0.6 (60% or greater predicted result)
+*   This generated the following set of rules (or qualifiying instanses based on my support and confidence numbers):
+![Apriori-Results](images/aprioir-results1.jpg)
+
 ### Inspected the Results Further
 Next, I inspected the results to see which rules were the most valuable. Things I was looking at were: 
-•	What products were purchased the most? 
-•	What products were purchased the least? 
-•	How many times did an occurrence equate to the purchase of my most popular product? 
+*   What products were purchased the most? 
+*   What products were purchased the least? 
+*   How many times did an occurrence equate to the purchase of my most popular product? 
+
 In general, I just wanted to get a feel for what was selling, what wasn’t and make sure that there weren’t any anomalies. In this case, there were. My biggest question to the sales team is that there were several times that multiple computers were purchased and they were all different make/model and brands. That’s pretty rare – and needs a little further explanation. 
 
-![Sold](/images/Top_10_Sold.png)
+![Apriori-Rules](images/aprioir-rules1.jpg)
+
+*   So looking at the above output, you can see that 0.00528% of the time, the items were purchased together. In this case, Acer Aspire, Dell Desktop and a ViewSonic Monitor.
+*   When that happens, it is 81.5% likely that the customer will also purchase an HP Laptop. 
+*   And you can see that this actually happened 52 times
 
 ## Final Findings: 
 For this example, the final findings were that iMac and HP computers were top sellers and that if a client had either product in their cart, we need to show them both items because these two were purchased together so many times that it was more than a fluke. The advice was to market to anyone that had purchased a PC or Laptop recently 
