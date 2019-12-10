@@ -13,6 +13,10 @@ In short, when running regression on spark and specifically ridge and lasso regr
 ml_linear_regression(var1 ~ ., alpha = 0, lambda = 0.02)
 ```
 
+```{r}
+r code here
+```
+
 Now however, there is an error code. 
 
 **The error code provided was:**
