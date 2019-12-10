@@ -13,10 +13,6 @@ In short, when running regression on spark and specifically ridge and lasso regr
 ml_linear_regression(var1 ~ ., alpha = 0, lambda = 0.02)
 ```
 
-```{r}
-r code here
-```
-
 Now however, there is an error code. 
 
 **The error code provided was:**
@@ -30,8 +26,8 @@ So, after reading the vignettes I finally just searched for alpha in the file an
 
 I decided to just change the parameter names and re-ran the code. Magic!
 
-`` `
+```{r}
 ml_linear_regression(var1 ~ ., elastic_net_param = 1, reg_param = 0.02)
-` ``
+```
 
 It works and all is well. Enjoy and I apologize for cutting into your late night reading/drinking time trying to figure this out. Maybe next time...
