@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'Spark Lasso Regression Feature Changes: Alpha and Lambda'
 author: 'Jeremy Harris'
 published = true
