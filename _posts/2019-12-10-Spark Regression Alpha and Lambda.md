@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Spark Lasso Regression - Alpha & Lambda Changes
+description: Spark Regression features alpha and lambda have changed and no longer work with the ml_linear_regression function in the sparklyr package in r. 
 published: true
 ---
 ## Summary
