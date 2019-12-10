@@ -4,7 +4,7 @@ title: Spark Lasso Regression - Alpha & Lambda Changes
 published: true
 ---
 ## Summary
-When working on a project, using old notes, I tried to execute lasso linear regression on a spark dataset via the `ml_linear_regression' function. Formerly, you could set alpha and lambda inside of the command to utilize lasso regression, but this time I received an error code. After much searching and late night (drinking) reading of vignettes, I realized that the parameter names had changed.
+When working on a project, using old notes, I tried to execute lasso linear regression on a spark dataset via the `ml_linear_regression' function from the `sparklyr` package. Formerly, you could set alpha and lambda inside of the command to utilize lasso regression, but this time I received an error code. After much searching and late night (drinking) reading of vignettes, I realized that the parameter names had changed.
 
 ## Old Way of Setting alpha & lambda
 In short, when running regression on spark and specifically ridge and lasso regression, `alpha` and `lambda` no longer work as feature to set. In the past version you could include code that would allow you to set the alpha and lambda features so that the lasso regression could be modified to assist with model complexity reduction and feature selection.
