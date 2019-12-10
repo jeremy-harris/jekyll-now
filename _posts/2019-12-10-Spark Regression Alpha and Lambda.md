@@ -9,7 +9,7 @@ When working on a project, using old notes, I tried to execute lasso linear regr
 ## Old Way of Setting alpha & lambda
 In short, when running regression on spark and specifically ridge and lasso regression, `alpha` and `lambda` no longer work as feature to set. In the past version you could include code that would allow you to set the alpha and lambda features so that the lasso regression could be modified to assist with model complexity reduction and feature selection.
 
-```{r, eval = FALSE}
+```{r eval = FALSE}
 ml_linear_regression(var1 ~ ., alpha = 0, lambda = 0.02)
 ```
 
@@ -26,7 +26,7 @@ So, after reading the vignettes I finally just searched for alpha in the file an
 
 I decided to just change the parameter names and re-ran the code. Magic!
 
-```{r, eval = FALSE}
+```{r eval = FALSE}
 ml_linear_regression(var1 ~ ., elastic_net_param = 1, reg_param = 0.02)
 ```
 
