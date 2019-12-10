@@ -26,8 +26,8 @@ So, after reading the vignettes I finally just searched for alpha in the file an
 
 I decided to just change the parameter names and re-ran the code. Magic!
 
-`` `
+[sourcecode language="r"]
 ml_linear_regression(var1 ~ ., elastic_net_param = 1, reg_param = 0.02)
-` ``
+[/sourcecode]
 
 It works and all is well. Enjoy and I apologize for cutting into your late night reading/drinking time trying to figure this out. Maybe next time...
